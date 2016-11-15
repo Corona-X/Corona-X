@@ -10,13 +10,14 @@
     <default revision="refs/heads/Initial-Development" remote="main" sync-j="4" />
 
     <!-- Base Files -->
-    <project name="CXBuildFiles" path="." />
-    <project name="CXBaseDocs" path="source/base/documentation" />
+    <project name="CXBuildRoot" path="." />
 
     <!-- Build Tools -->
     <!-- We're pretty much good with the default tools for now... -->
 
     <!-- System Source -->
+        <project name="CXBaseDocs" path="source/base/docs" />
+
         <!-- Kernel Source -->
         <project name="CXK-Shared" path="source/base/kernel/SharedCode" />
         <project name="CXK" path="source/base/kernel/CXK" />
