@@ -4,7 +4,7 @@ Corona-X Project Manifest
 #Building¹
 
 Building Corona-X requires a bourne-like shell (`bash`, `sh`, etc.), google `repo`, and a working (native) C Compiler.
-`repo` can be downloaded with the following command: `curl https://storage.googleapis.com/git-repo-downloads/repo > repo`²
+Note: `repo` can be downloaded with the following command: `curl https://storage.googleapis.com/git-repo-downloads/repo > repo`²
 
 ##Instructions to Check Out the Source Tree:
 
@@ -20,6 +20,6 @@ Building Corona-X requires a bourne-like shell (`bash`, `sh`, etc.), google `rep
 
 
 
-¹: Corona-X will build on Mac OS X, most Linux Distributions, and (soon!) itself
-²: See [here](https://code.google.com/p/git-repo/) or [here](http://source.android.com/source/downloading.html) for more information on installing and using repo
-³: Current Branches: `Initial-Development`
+1: Corona-X will build on Mac OS X, most Linux Distributions, and (soon!) itself.<br>
+2: See [here](https://code.google.com/p/git-repo/) or [here](http://source.android.com/source/downloading.html) for more information on installing and using repo.<br>
+3: Current Branches: `Initial-Development`<br>
