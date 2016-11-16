@@ -19,7 +19,8 @@ Note: `repo` can be downloaded with the following command: `curl https://storage
 ##Instructions for Building the Source Tree:
 
 
+---
 
-1: Corona-X will build on Mac OS X, most Linux Distributions, and (soon!) itself.<br>
+1: Corona-X will build on Mac OS X, most Linux Distributions, (probably?) Anything *BSD, and (soon!) itself.<br>
 2: See [here](https://code.google.com/p/git-repo/) or [here](http://source.android.com/source/downloading.html) for more information on installing and using repo.<br>
 3: Current Branches: `Initial-Development`<br>
