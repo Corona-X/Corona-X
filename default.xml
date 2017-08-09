@@ -11,6 +11,7 @@
 
     <!-- Base Files -->
     <project name="CXBuildRoot" path="." />
+    <project name="Xcode" path="Xcode" />
 
     <!-- Build Tools -->
     <project name="CAR" path="Tools/CAR" />
