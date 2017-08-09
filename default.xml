@@ -13,16 +13,16 @@
     <project name="CXBuildRoot" path="." />
 
     <!-- Build Tools -->
-    <!-- We're pretty much good with the default tools for now... -->
+    <project name="CAR" path="Tools/CAR" />
 
     <!-- System Source -->
-        <project name="CXBaseDocs" path="Source/Base/Documentation" />
+        <project name="CXBaseDocs" path="Documentation" />
 
         <!-- Kernel Source -->
-        <project name="CXKShared" path="Source/Base/Kernel/SharedCode" />
-        <project name="CXK" path="Source/Base/Kernel/CXK" />
-        <project name="CXSystemLoader" path="Source/Base/Kernel/CXSystemLoader" />
+        <project name="XKShared" path="Source/Kernel/SharedCode" />
+        <project name="CXK" path="Source/Kernel/CXK" />
+        <project name="CXSystemLoader" path="Source/Kernel/CXSystemLoader" />
 
         <!-- CSL Servers -->
-        <project name="CoreIOServer" path="Source/Base/CSL/CoreIOServer" />
+        <project name="CoreDriver" path="Source/Kernel/CoreDriver" />
 </manifest>
