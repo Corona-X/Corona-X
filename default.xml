@@ -15,7 +15,8 @@
 
     <!-- Build Tools -->
     <project name="CAR" path="Tools/CAR" />
-
+    <project name="build-bootlogo" path="Tools/build-bootlogo" />
+ 
     <!-- System Source -->
         <project name="CXBaseDocs" path="Documentation" />
 
