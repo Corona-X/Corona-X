@@ -15,6 +15,7 @@
 
     <!-- Build Tools -->
     <project name="CAR" path="Tools/CAR" />
+    <project name="build-bitmap-font" path="Tools/build-bitmap-font" />
     <project name="build-bootlogo" path="Tools/build-bootlogo" />
  
     <!-- System Source -->
