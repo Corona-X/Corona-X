@@ -6,8 +6,15 @@
 <!-- # Corona-X Project Manifest for use with repo # -->
 <!-- ############################################### -->
 <manifest>
-    <remote name="main" fetch="https://github.com/Corona-X/"/>
+    <remote name="main" fetch="https://github.com/Corona-X/" />
     <default revision="refs/heads/Initial-Development" remote="main" sync-j="4" />
+
+    <!-- External Build Tools -->
+    <remote name="googlesource" fetch="https://gn.googlesource.com/" />
+    <project name="gn" path="Tools/gn" revision="refs/heads/master" remote="googlesource" />
+
+    <remote name="ninja" fetch="https://github.com/ninja-build/" />
+    <project name="ninja" path="Tools/ninja" revision="refs/heads/release" remote="ninja" />
 
     <!-- Base Files -->
     <project name="CXBuildRoot" path="." />
@@ -17,12 +24,11 @@
     <project name="CAR" path="Tools/CAR" />
     <project name="build-bitmap-font" path="Tools/build-bitmap-font" />
     <project name="build-bootlogo" path="Tools/build-bootlogo" />
- 
+
     <!-- System Source -->
         <project name="CXBaseDocs" path="Documentation" />
 
         <!-- Kernel Source -->
-        <project name="XKShared" path="Source/Kernel/SharedCode" />
         <project name="CXK" path="Source/Kernel/CXK" />
         <project name="CXSystemLoader" path="Source/Kernel/CXSystemLoader" />
 
